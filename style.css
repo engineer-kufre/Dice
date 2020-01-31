@@ -1,0 +1,45 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Zhi Mang Xing', cursive;
+}
+img {
+	position: fixed;
+	z-index: -1;
+	height: 100vh;
+}
+.all {
+	background-color: rgba(3, 3, 3, 0.26);
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.screen {
+	border: 5px solid black;
+	border-radius: 10px;
+	padding: 70px;
+	background-color: rgba(0, 0, 0, 0.685);
+}
+span {
+	font-size: 200px;
+	color: #e60909;
+	padding: 20px;
+}
+button {
+	background-color: rgba(169, 125, 23, 0);
+	border: none;
+	font-size: 35px;
+	padding: 10px;
+	margin: 0 30px;
+	color: #e60909;
+	font-family: 'Zhi Mang Xing', cursive;
+}
+button:hover {
+	border: 2px solid #860101;
+	border-radius: 5px;
+	cursor: pointer;
+}
